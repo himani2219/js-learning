@@ -19,8 +19,17 @@ const a2 = myarr.join()
 // console.log(typeof(a2))
 
 //slice and splice
-console.log(myarr);
-const n1 = myarr.slice(1,3);
-const n2 = myarr.splice(1,3);
-console.log(n1)
-console.log(n2)
+// console.log(myarr);
+// const n1 = myarr.slice(1,3);
+// const n2 = myarr.splice(1,3);
+// console.log(n1)
+// console.log(n2)
+
+const food = ['pasta', 'pizza', 'cupcake']
+const drink = ['soda', 'sprite', 'fanta']
+
+// food.push(drink)
+// console.log(food)
+
+const all = food.concat(drink);
+console.log(all)
